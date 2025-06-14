@@ -10,9 +10,9 @@ Application pour faciliter la garde de Neurochirurgie à Besançon.
    ```bash
    cd project
    ```
-2. Install dependencies:
+2. Install dependencies (use `--legacy-peer-deps` to bypass the React 19 peer conflict):
    ```bash
-   npm install
+   npm install --legacy-peer-deps
    ```
    After installation, `patch-package` will automatically adjust
    `lucide-react-native` to work with React 19.
