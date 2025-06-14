@@ -24,3 +24,14 @@ Application pour faciliter la garde de Neurochirurgie à Besançon.
 Once the server is running, you can scan the QR code with Expo Go or
 open the project in an iOS or Android emulator to view the app.
 
+## Quick Start Script
+
+Pour démarrer rapidement l'application, exécutez simplement :
+
+```bash
+./start.sh
+```
+
+Ce script installe les dépendances si nécessaire puis lance le serveur
+de développement Expo.
+
