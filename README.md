@@ -32,6 +32,7 @@ Pour démarrer rapidement l'application, exécutez simplement :
 ./start.sh
 ```
 
-Ce script installe les dépendances si nécessaire puis lance le serveur
-de développement Expo.
+Ce script vérifie la présence du dossier `project/node_modules` et
+n'installe les dépendances que s'il est absent. Il lance ensuite le
+serveur de développement Expo.
 

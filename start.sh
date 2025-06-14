@@ -6,5 +6,7 @@
 set -e
 cd "$(dirname "$0")/project"
 
-npm install --legacy-peer-deps
+if [ ! -d node_modules ]; then
+  npm install --legacy-peer-deps
+fi
 npm run dev
