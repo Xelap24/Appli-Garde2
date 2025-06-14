@@ -14,6 +14,8 @@ Application pour faciliter la garde de Neurochirurgie à Besançon.
    ```bash
    npm install
    ```
+   After installation, `patch-package` will automatically adjust
+   `lucide-react-native` to work with React 19.
 3. Start the development server:
    ```bash
    npm run dev
